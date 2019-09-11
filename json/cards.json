@@ -1,0 +1,25 @@
+[
+  {
+    "name": "Schoolbus",
+    "type": "Object",
+    "hp": 1,
+    "damage": 1,
+    "speed": 5,
+    "cost":{
+      "lumber": 2,
+      "metal": 3,
+      "mana": 1,
+      "energy": 1,
+      "food": 1
+    },
+    "description": [
+      "Whenever a creature with tag 'pupil' enters the",
+      "field, schoolbus gets a chu chu counter.",
+      "",
+      "Remove a chu chu counter:",
+      "Schoolbus deals damage to target unit equal",
+      "to the number of chu chu counters on it."
+    ],
+    "image": "schoolbus"
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "background": "cardframe",
+  "bgSize": [750, 1125],
+
+  "titlePosition": [375, 650],
+  "titleFontSize": 50,
+  "typePosition": [375, 1080],
+  "typeFontSize": 40,
+  "descriptionPosition": [370, 780],
+  "descriptionLineSpacing": 40,
+  "descriptionFontSize": 25,
+  "speedPosition": [681, 65],
+  "damagePosition": [650, 120],
+  "hpPosition": [712, 120],
+  "lumberPosition": [38, 122],
+  "metalPosition": [100, 122],
+  "manaPosition": [38, 198],
+  "energyPosition": [100, 198],
+  "foodPosition": [68, 65],
+  "imagePosition": [86, 107],
+  "imageSize": [581, 533]
+}
