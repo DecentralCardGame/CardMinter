@@ -36,14 +36,17 @@ function createCard(card, cb) {
         ctx.font = 'bold '+specs.typeFontSize+'px Roboto';
         ctx.fillText(card.speed, specs.speedPosition[0], specs.speedPosition[1]);
 
-        ctx.fillStyle = "rgba(3,192,60,1)";
-        ctx.font = 'bold '+specs.typeFontSize+'px Roboto';
-        ctx.fillText(card.damage, specs.damagePosition[0], specs.damagePosition[1]);
+        if(card.damage) {
+          ctx.fillStyle = "rgba(255,100,100,1)";
+          ctx.font = 'bold '+specs.typeFontSize+'px Roboto';
+          ctx.fillText(card.damage, specs.damagePosition[0], specs.damagePosition[1]);
+        }
 
-        ctx.font = 'bold '+specs.typeFontSize+'px Roboto';
-        ctx.fillStyle = "rgba(255,100,100,1)";
-        ctx.fillText(card.hp, specs.hpPosition[0], specs.hpPosition[1]);
-
+        if(card.hp) {
+          ctx.font = 'bold '+specs.typeFontSize+'px Roboto';
+          ctx.fillStyle = "rgba(3,192,60,1)";
+          ctx.fillText(card.hp, specs.hpPosition[0], specs.hpPosition[1]);
+        }
 
         if(card.cost.lumber) {
         ctx.fillStyle = "rgba(131,105,83,1)";
