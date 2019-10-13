@@ -18,7 +18,7 @@ function createCard(card, cb) {
     var ctx = canvas.getContext('2d');
 
 
-    includeImg(ctx, imgPath + 'card/' + card.image + '.png', specs.imagePosition, specs.imageSize);
+    includeImg(ctx, imgPath + 'cardimg/' + card.image + '.png', specs.imagePosition, specs.imageSize);
 
     var img = new Image;
     img.onload = function() {

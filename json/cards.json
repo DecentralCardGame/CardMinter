@@ -44,5 +44,183 @@
       "with tag 'scrap'"
     ],
     "image": "blasturn"
+  },
+  {
+    "name": "Steam Processor",
+    "type": "Location",
+    "hp": 7,
+    "damage": 0,
+    "speed": 4,
+    "cost":{
+      "lumber": 0,
+      "metal": 4,
+      "mana": 0,
+      "energy": 5,
+      "food": 0
+    },
+    "description": [
+      "Whenever an Energy is added",
+      "to your resource depot, add",
+      "an additional Energy to it.",
+      "",
+      "3 Energy: draw a card"
+    ],
+    "image": "steamprocessor"
+  },
+  {
+    "name": "Repair Bot",
+    "type": "Object",
+    "hp": 2,
+    "damage": 2,
+    "speed": 5,
+    "cost":{
+      "lumber": 0,
+      "metal": 2,
+      "mana": 0,
+      "energy": 2,
+      "food": 0
+    },
+    "description": [
+      "",
+      "Periodic - repair target location by 2 HP"
+    ],
+    "image": "repairbot"
+  },
+  {
+    "name": "Reprocessor",
+    "type": "Location",
+    "hp": 3,
+    "damage": 0,
+    "speed": 6,
+    "cost":{
+      "lumber": 0,
+      "metal": 5,
+      "mana": 0,
+      "energy": 2,
+      "food": 0
+    },
+    "description": [
+      "",
+      "5 energy: return target card from ",
+      "your dust pile to your hand"
+    ],
+    "image": "reprocessor"
+  },
+  {
+    "name": "Coal Power Plant",
+    "type": "Location",
+    "hp": 7,
+    "damage": 0,
+    "speed": 6,
+    "cost":{
+      "lumber": 0,
+      "metal": 3,
+      "mana": 0,
+      "energy": 0,
+      "food": 0
+    },
+    "description": [
+      "",
+      "2 Lumber: add 3 Energy"
+    ],
+    "image": "coalplant"
+  },
+  {
+    "name": "Hurrwig, the Operator",
+    "type": "Object",
+    "hp": 4,
+    "damage": 3,
+    "speed": 4,
+    "cost":{
+      "lumber": 0,
+      "metal": 0,
+      "mana": 0,
+      "energy": 0,
+      "food": 3
+    },
+    "description": [
+      "Whenever Hurrwig blocks an attack on",
+      "a location, Hurrwig does not receive",
+      "any damage or gets +3/+3 - Both does",
+      "not work with our game grammar, right?"
+    ],
+    "image": "hurrwig"
+  },
+  {
+    "name": "Lörden, the Technocrat",
+    "type": "Object",
+    "hp": 5,
+    "damage": 5,
+    "speed": 5,
+    "cost":{
+      "lumber": 2,
+      "metal": 3,
+      "mana": 0,
+      "energy": 0,
+      "food": 3
+    },
+    "description": [
+      "",
+      "3 Energy: deal 2 damage to any object."
+    ],
+    "image": "loerden"
+  },
+  {
+    "name": "Ulrich, the Tinker",
+    "type": "Object",
+    "hp": 7,
+    "damage": 3,
+    "speed": 6,
+    "cost":{
+      "lumber": 0,
+      "metal": 3,
+      "mana": 0,
+      "energy": 0,
+      "food": 4
+    },
+    "description": [
+      "",
+      "Whenever an object with tag 'bot'",
+      "is destroyed, return it to your hand."
+    ],
+    "image": "ulrich"
+  },
+  {
+    "name": "Farm",
+    "type": "Location",
+    "hp": 7,
+    "damage": 0,
+    "speed": 4,
+    "cost":{
+      "lumber": 2,
+      "metal": 0,
+      "mana": 0,
+      "energy": 0,
+      "food": 0
+    },
+    "description": [
+      "",
+      "Produce - 4 Food"
+    ],
+    "image": "farm"
+  },
+  {
+    "name": "Replicator",
+    "type": "Object",
+    "hp": 2,
+    "damage": 5,
+    "speed": 6,
+    "cost":{
+      "lumber": 0,
+      "metal": 4,
+      "mana": 0,
+      "energy": 2,
+      "food": 0
+    },
+    "description": [
+      "",
+      "4 Metal, 2 Energy: Create a copy of Replicator."
+    ],
+    "image": "replicator"
   }
 ]
