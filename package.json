@@ -1,0 +1,23 @@
+{
+  "name": "cardminter",
+  "version": "0.1.0",
+  "description": "creates cards from img and json",
+  "main": "createAll.js",
+  "dependencies": {
+    "canvas": "^2.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DecentralCardGame/CardMinter.git"
+  },
+  "author": "patrick wieth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DecentralCardGame/CardMinter/issues"
+  },
+  "homepage": "https://github.com/DecentralCardGame/CardMinter#readme"
+}
